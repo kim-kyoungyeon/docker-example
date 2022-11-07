@@ -14,9 +14,9 @@ docker desktop 실행후
 `docker ps` // 현재 실행중인 docekler id 확인해보기
 `docker logs 아이디` //ps 를 이용해서 확인해보기
 docker 허브에서 image repository 에서 올려보기
-docker tag fun-docker:latest realdreamcoding/docker-example:latest
+docker tag fun-docker:latest ww3ysq/docker-example:latest
 docker images 로 이름변경되었는지 확인
 docker login
 계정 이름
-docker push realdreamcoding/docker-example:latest
+docker push ww3ysq/docker-example:latest
 // push 업로드
